@@ -20,7 +20,7 @@ const EthPercentage float32 = 0.30
 func main() {
 	fmt.Println("Enter the holding amount: ")
 
-	var holdings float32 = 100
+	var holdings float32 = 0.0
 	fmt.Scanln(&holdings)
 
 	var tickerPrice, _ = getBtcEthPrice()
